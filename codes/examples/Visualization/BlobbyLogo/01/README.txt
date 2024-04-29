@@ -1,0 +1,1 @@
+.\Release\BlobbyLogo.exe ../../../../Data/v.vtk ../../../../Data/t.vtk ../../../../Data/k.vtk

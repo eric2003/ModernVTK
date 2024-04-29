@@ -1,0 +1,1 @@
+.\Release\ClipArt.exe ../../../../Data/stormy.jpg

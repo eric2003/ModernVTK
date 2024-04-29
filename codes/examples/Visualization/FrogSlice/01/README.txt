@@ -1,0 +1,1 @@
+.\Release\FrogSlice.exe ../../../../Data/frog.mhd ../../../../Data/frogtissue.mhd

@@ -1,0 +1,1 @@
+./Release\ChooseTextColor.exe. ../../../../Data/Canterbury.ttf Pink MintCream SaddleBrown

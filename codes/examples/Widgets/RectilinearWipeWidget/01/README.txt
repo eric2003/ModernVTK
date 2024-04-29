@@ -1,0 +1,1 @@
+./Release/RectilinearWipeWidget.exe ../../../../Data/Gourds2.jpg ../../../../Data/Ox.jpg

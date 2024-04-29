@@ -1,0 +1,1 @@
+C:\local\Qt\6.7.0\msvc2019_64\bin\windeployqt.exe .\Release\BarChartQt.exe

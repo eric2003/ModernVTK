@@ -1,0 +1,1 @@
+.\Release\CurvedReformation.exe ../../../../Data/HeadMRVolume.mhd ../../../../Data/polyline.vtk 200

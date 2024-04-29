@@ -1,0 +1,1 @@
+.\Release\BoxClipStructuredPoints.exe ../../../../Data/HeadMRVolume.mhd

@@ -1,0 +1,1 @@
+.\Release\MarchingSquares.exe ../../../../Data/fullhead15.png

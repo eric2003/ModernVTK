@@ -1,0 +1,1 @@
+./Release/ScalarBarWidget.exe ../../../../Data/uGridEx.vtk
