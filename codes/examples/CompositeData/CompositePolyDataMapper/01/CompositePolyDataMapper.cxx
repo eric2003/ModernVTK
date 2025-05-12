@@ -64,7 +64,14 @@ int main(int /* argc */, char* /* argv */[])
 
   mapper->SetBlockColor(2, colors->GetColor3d("Red").GetData());
   // Color the spheres.
-  mapper->SetBlockColor(1, colors->GetColor3d("LavenderBlush").GetData());
+  //mapper->SetBlockColor(1, colors->GetColor3d("LavenderBlush").GetData());
+  mapper->SetBlockColor(1, colors->GetColor3d("Red").GetData());
+  vtkColor3d co = colors->GetColor3d( "Red" );
+  int s = co.GetSize();
+  double * t = co.GetData();
+  std::cout << "haha\n";
+  std::cout << "size = " << s << "\n";
+  std::cout << "color = " << t[0] << " " << t[1] << " " << t[2] << " " << "\n";
   mapper->SetBlockColor(3, colors->GetColor3d("Lavender").GetData());
 
   vtkNew<vtkActor> actor;
