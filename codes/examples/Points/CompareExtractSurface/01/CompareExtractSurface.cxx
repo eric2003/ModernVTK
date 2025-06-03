@@ -6,12 +6,11 @@
 #include <vtkNamedColors.h>
 #include <vtkPCANormalEstimation.h>
 #include <vtkPointData.h>
-//#include <vtkPoissonReconstruction.h>
-#include <vtkPoissonDiskSampler.h>
+#include <vtkPoissonReconstruction.h>
 #include <vtkPolyDataMapper.h>
 #include <vtkPolyDataMapper2D.h>
 #include <vtkPolyLine.h>
-//#include <vtkPowerCrustSurfaceReconstruction.h>
+#include <vtkPowerCrustSurfaceReconstruction.h>
 #include <vtkProperty.h>
 #include <vtkProperty2D.h>
 #include <vtkRenderWindow.h>

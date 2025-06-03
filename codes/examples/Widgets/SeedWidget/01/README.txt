@@ -1,0 +1,1 @@
+PS D:\work\vtk_2024_work\ModernVTK\codes\examples\Widgets\SeedWidget\01\build> .\Release\SeedWidget.exe

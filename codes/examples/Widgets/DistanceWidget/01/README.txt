@@ -1,0 +1,1 @@
+PS D:\work\vtk_2024_work\ModernVTK\codes\examples\Widgets\DistanceWidget\01\build> .\Release\DistanceWidget.exe

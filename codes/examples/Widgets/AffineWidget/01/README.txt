@@ -1,0 +1,1 @@
+PS D:\work\vtk_2024_work\ModernVTK\codes\examples\Widgets\AffineWidget\01\build> .\Release\AffineWidget.exe

@@ -1,0 +1,1 @@
+PS D:\work\vtk_2024_work\ModernVTK\codes\examples\Widgets\LineWidget2\01\build> .\Release\LineWidget2.exe

@@ -36,20 +36,20 @@ if(NOT DEFINED VTK_QT_VERSION)
   set(VTK_QT_VERSION 5)
 endif()
 
-#set(qt_components Core Gui Widgets)
-#if(${VTK_QT_VERSION} VERSION_GREATER_EQUAL 6)
-#  list(APPEND qt_components OpenGLWidgets)
-#endif()
-#list(SORT qt_components)
+set(qt_components Core Gui Widgets)
+if(${VTK_QT_VERSION} VERSION_GREATER_EQUAL 6)
+  list(APPEND qt_components OpenGLWidgets)
+endif()
+list(SORT qt_components)
 # We have ui files, so this will also bring in the macro:
 #   qt5_wrap_ui or qt_wrap_ui from Widgets.
-#find_package(Qt${VTK_QT_VERSION} QUIET
-#  REQUIRED COMPONENTS ${qt_components}
-#)
+find_package(Qt${VTK_QT_VERSION} QUIET
+  REQUIRED COMPONENTS ${qt_components}
+)
 
-#foreach(_qt_comp IN LISTS qt_components)
-#  list(APPEND qt_modules "Qt${VTK_QT_VERSION}::${_qt_comp}")
-#endforeach()
+foreach(_qt_comp IN LISTS qt_components)
+  list(APPEND qt_modules "Qt${VTK_QT_VERSION}::${_qt_comp}")
+endforeach()
 
 message (STATUS "VTK_VERSION: ${VTK_VERSION}, Qt Version: ${Qt${VTK_QT_VERSION}Widgets_VERSION}")
 
@@ -71,7 +71,7 @@ file(GLOB CXX_FILES *.cxx)
 set(CMAKE_NINJA_FORCE_RESPONSE_FILE "ON" CACHE BOOL "Force Ninja to use response files.")
 # CMAKE_AUTOMOC in ON so the MOC headers will be automatically wrapped.
 add_executable(BarChartQt MACOSX_BUNDLE
-  ${CXX_FILES} ${UISrcs} ${QT_WRAP}
+  ${CXX_FILES} ${UI_FILES} ${QT_WRAP}
 )
 if (Qt${VTK_QT_VERSION}Widgets_VERSION VERSION_LESS "5.11.0")
   qt5_use_modules(BarChartQt ${qt_components})

@@ -26,7 +26,7 @@ public slots:
 
 private:
   // Designer form
-  Ui::BarChartQt* ui;
+  Ui::BarChartQt* ui = nullptr;
 };
 
 #endif

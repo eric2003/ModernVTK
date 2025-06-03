@@ -1,0 +1,1 @@
+PS D:\work\vtk_2024_work\ModernVTK\codes\examples\Widgets\ImageTracerWidgetInsideContour\01\build> .\Release\ImageTracerWidgetInsideContour.exe

@@ -1,0 +1,1 @@
+PS D:\work\vtk_2024_work\ModernVTK\codes\examples\Widgets\PlaneWidget\01\build> .\Release\PlaneWidget.exe

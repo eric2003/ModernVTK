@@ -1,0 +1,1 @@
+.\Release\FontFile.exe ../../../../Data/CopyPaste.ttf
